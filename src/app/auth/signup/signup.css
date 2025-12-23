@@ -1,0 +1,31 @@
+.post-card {
+ max-width: 600px;
+  margin: 20px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+
+  /* subtle accent */
+  border-top: 4px solid #a3ff4d;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.spinner {
+  margin: 40px auto;
+  display: block;
+}
+
+.submit-btn {
+  width: 150px;
+  align-self: flex-end;
+}
+

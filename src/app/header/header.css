@@ -1,0 +1,33 @@
+.app-toolbar {
+  background: white;
+  color: #333;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.app-title {
+  margin-left: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+/* Active text buttons */
+.active-link {
+  font-weight: 600;
+  border-bottom: 2px solid #1976d2;
+}
+
+/* Active icon button */
+.active-icon {
+  background-color: rgba(25, 118, 210, 0.15);
+  border-radius: 50%;
+}
+
+/* Slight spacing polish */
+mat-toolbar button {
+  margin-left: 4px;
+}

@@ -1,0 +1,29 @@
+mat-expansion-panel {
+  width: 80%;
+  margin: auto;
+}
+
+.info-text {
+  text-align: center;
+  margin-top: 2rem;
+  color: rgb(38, 44, 19);
+}
+.button-row {
+  display: flex;
+  gap: 8px;
+}
+.post-image {
+  width: 100%;
+}
+.post-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+mat-paginator {
+  margin: 1rem;
+  ;
+}
